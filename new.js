@@ -59,7 +59,7 @@ const main = async () => {
         let template = await readFile(TEMPLATE_FILE, 'utf-8');
         const date = getDate();
 
-        template = template.replace(/{{ TITLE }}/gim, date);
+        template = template.replace(/{{ TITLE }}/gim, args.length ? args.join(' ') : date);
 
         const newTemplateFilename = (args.length ? args.join(' ') : date)
             .replace(/\W|_/gim, ' ')
