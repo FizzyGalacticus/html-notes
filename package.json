@@ -1,0 +1,9 @@
+{
+  "name": "html-notes",
+  "version": "1.0.0",
+  "description": "Simple tool for creating notes in HTML",
+  "main": "index.js",
+  "repository": "https://github.com/FizzyGalacticus/html-notes",
+  "author": "Dustin L. Dodson",
+  "license": "MIT"
+}
